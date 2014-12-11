@@ -1,0 +1,2 @@
+serviceClass: com.google.gwt.pop.client.LoginService
+path: 8BDFB74CFA4BF74ED0512FB61470FCD6.gwt.rpc

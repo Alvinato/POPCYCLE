@@ -1,0 +1,6 @@
+# Module pop
+# RPC service class, partial path of RPC policy file
+com.google.gwt.pop.client.POIService, B5FBF6046E864743928845A9B795C48D.gwt.rpc
+com.google.gwt.pop.client.DrinkingService, D67FE5ADEBEE7D05198FF03E57BA8F36.gwt.rpc
+com.google.gwt.pop.client.LoginService, 8BDFB74CFA4BF74ED0512FB61470FCD6.gwt.rpc
+com.google.gwt.pop.client.UserInfoService, 2A5A032F0CC7953FA919170C3987E01B.gwt.rpc

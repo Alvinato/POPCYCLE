@@ -1,0 +1,354 @@
+<!Doctype html>
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<link rel="stylesheet" href="Pop.css">
+		<link rel="stylesheet" href="bootstrap.css">
+		<script type="text/javascript" src="pop/pop.nocache.js" language="javascript">
+
+		</script>
+
+		<!-----
+			<style type="text/css">
+ 				 body { 
+					background-image: -webkit-linear-gradient(top, #FF0066 0%, #00A3EF 100%);
+					background-image: -ms-linear-gradient(top, #FF0066 0%, #00A3EF 100%);
+					background-image: -moz-linear-gradient(top, #FF0066 0%, #00A3EF 100%);
+					background-image: linear-gradient(to bottom, #FF0066 0%, #00A3EF 100%);
+					background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #FF0066), color-stop(1, #00A3EF));
+				}
+
+
+
+		</style> ----->
+	</head>
+<body>
+
+
+
+ <iframe src="javascript:''"
+          id="__gwt_historyFrame"
+          style="position:absolute;width:0;height:0;border:0"></iframe>
+<div id="fb-root"></div>
+<script>
+
+function statusChangeCallback(response) {
+    console.log('statusChangeCallback');
+    console.log(response);
+
+    if (response.status === 'connected') {
+      connectToFB();
+    } else if (response.status === 'not_authorized') {
+      document.getElementById('facebook').innerHTML = 'Please log ' +
+        'into this app.';
+    } else {
+      document.getElementById('facebook').innerHTML = 'Please log ' +
+        'into Facebook.';
+    }
+  }
+
+  function checkLoginState() {
+    FB.getLoginStatus(function(response) {
+      statusChangeCallback(response);
+    });
+  }
+ window.fbAsyncInit = function() {
+  FB.init({
+    appId      : '490993937713524',
+    cookie     : true,  
+                       
+    xfbml      : true,  
+    version    : 'v2.0' 
+  });
+
+FB.getLoginStatus(function(response) {
+    statusChangeCallback(response);
+  });
+
+  };
+
+(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&appId=490993937713524&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+
+
+  function connectToFB() {
+    console.log('Howdy!  Please wait while we get you started!.. ');
+    FB.api('/me', function(response) {
+      console.log('Successful login for: ' + response.name);
+      document.getElementById('facebook').innerHTML =
+        response.name + ' is actively logged into Facebook!';
+    });
+  }
+  
+  FB.ui(
+  {
+    method: 'share',
+    href: 'https://developers.facebook.com/docs/',
+  },
+  function(response) {
+    if (response && !response.error_code) {
+      alert('Posting completed.');
+    } else {
+      alert('Error while posting.');
+    }
+  }
+);
+
+  
+
+ 
+  
+  </script>
+
+
+<nav class="navbar navbar-inverse" role="navigation">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">PopCycle</a>
+    </div>
+
+
+
+
+  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active">
+        <a href="http://www.gmail.com">Get a Gmail Account!</a>
+        </li>
+        <li>
+        <a href="http://www.amazon.com/Cycling-Wheel-Sports-Outdoors/b?ie=UTF8&node=3403201">Buy a Bike!</a>
+        </li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+ 
+      
+        <li>
+        
+      <div class="fb-share-button" data-href="https://www.facebook.com/dialog/share_open_graph?
+  app_id=145634995501895
+  &display=popup
+  &action_type=og.like
+  $object_type=  
+  &action_properties=%7B%22object%22%3A%22https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2F%22%7D
+  &redirect_uri=https://developers.facebook.com/tools/explorer"  ></div>
+          </li>
+          </ul>
+        
+       </div>
+  </div>
+</nav>
+
+
+<div id="jumbotron"> 
+<div class="container"> 
+<div class="wide">
+  	<div class="col-xs-4 "></div>
+    <div class="col-xs-6 logo"><img src="out.gif"></div>
+    <div class="col-xs-4 "></div>
+</div>
+</div> 
+</div>  
+
+
+<div class="progression-bar blue stripes">
+    <span style="width: 100%"></span>
+</div>
+
+
+
+
+
+<div id = "topper"></div>
+<div id ="mainPanel">
+</div>
+
+<div id="topPanel">
+</div>
+
+<div class="progression2-bar green stripes">
+    <span style="width: 100%"></span>
+</div>
+
+	<!----
+<div id="map_canvas">
+
+
+</div>
+
+<div id="mapper">
+</div>
+
+<div id = "spacepan2">
+</div>
+---->
+
+<div id="Suggest">
+</div>
+
+<div id="flextable2">
+</div>
+
+<div id = flextable3></div>
+
+
+<div id="test"></div>
+
+
+<div id="TabPanel">
+
+</div>
+
+<div id="TabPanel2"></div>
+
+
+<div id="jumbotron"> 
+<div class="container"> 
+<div class="wide">
+  	<div class="col-xs-4 "></div>
+    <div class="col-xs-6 logo"><img src="BeSocial.gif"></div>
+    <div class="col-xs-4 "></div>
+</div>
+</div> 
+</div> 
+
+
+
+<div class="row">
+  <div class="col-sm-9 col-md-6">
+    <div class="thumbnail">
+      <img data-src="fac.jpg" >
+      <div class="caption">
+        <h3>Like us on Facebook!</h3>
+        <p>Tell the world about PopCycle!</p>
+        <p><div
+            class="fb-like"
+              data-send="false"
+  data-width="200"
+  data-show-faces="false">
+</div></p>
+      </div>
+    </div>
+  </div>
+<div class="col-sm-9 col-md-6">
+    <div class="thumbnail">
+      <img data-src="fac.jpg" >
+      <div class="caption">
+        <h3>Share your activity on Facebook!</h3>
+        <p>We'd love to hear from you!</p>
+        <p><div class="fb-share-button" data-href="https://www.google.ca/maps/dir/Stanley+Park,+Vancouver,+BC+V6G+1Z4/The+University+of+British+Columbia,+2329+W+Mall,+Vancouver,+BC+V6T+1Z4/@49.2812059,-123.2223392,13z/data=!3m1!4b1!4m13!4m12!1m5!1m1!1s0x5486718cad26e4a3:0x364a639db409e216!2m2!1d-123.1417!2d49.301705!1m5!1m1!1s0x548672cc2fd41e03:0xc79dd4e7732aa2f3!2m2!1d-123.245994!2d49.260605" data-src= "fac.jpg"  ></div>
+        
+        <div class="fb-comments" data-href="http://1-dot-imranhabib14.appspot.com/" data-numposts="3" data-colorscheme="dark"></div>
+        </p>
+      </div>
+    </div>
+  </div>
+
+
+
+</div>
+
+<div class="row">
+  <div class="col-sm-18 col-md-12">
+    <div class="thumbnail">
+      <img data-src="fac.jpg" >
+      <div class="caption">
+        <h3>Follow us on Twitter!</h3>
+        <p>We follow back!</p>
+        <p><div>
+<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://1-dot-imranhabib14.appspot.com/" data-text="Just reached an empty bike rack! Thanks PopCycle!!" data-size="small">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+</div>
+<div><a href="https://twitter.com/intent/tweet?button_hashtag=PopCycleStories&text=I%20just%20checked%20into%20my%20bike%20rack%20with%20PopCycle!" class="twitter-hashtag-button" data-related="habiberton" data-url="http://1-dot-imranhabib14.appspot.com/">Tweet #PopCycleStories</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+</div></p>
+      </div>
+    </div>
+  </div>
+  </div>
+
+
+
+
+<div id="jumbotron"> 
+<div class="container"> 
+<div class="wide">
+  	<div class="col-xs-4 "></div>
+    <div class="col-xs-6 logo"><img src="Help.gif"></div>
+    <div class="col-xs-4 "></div>
+</div>
+</div> 
+</div> 
+
+
+<div id = "infoTab"></div>
+
+
+<div class="progression2-bar green stripes">
+    <span style="width: 100%"></span>
+</div>
+<nav class="navbar navbar-default navbar-fixed-bottom" role="navigation">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">PopCycle</a>
+    </div>
+
+
+
+
+  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active">
+        <div id= helpTag></div>
+        </li>
+       
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+   
+        <li>
+        <div class="fb-login-button" 
+   data-scope= "public_profile,email" 
+onlogin="checkLoginState();"
+data-max-rows="0" 
+data-size="small" 
+data-show-faces="false" 
+data-auto-logout-link="true">
+        </div>  
+        </li>
+        <li>
+        <div id="facebook">
+</div>
+        </li>
+        <li>
+        
+    <div id= navigraytion></div>
+         </li>
+          </ul>
+        
+       </div>
+  </div>
+  </nav>
+
+
+
+
+
+</body> 
+
+</html>

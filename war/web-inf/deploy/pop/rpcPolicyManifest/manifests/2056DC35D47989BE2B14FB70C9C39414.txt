@@ -1,0 +1,2 @@
+serviceClass: com.google.gwt.pop.client.POIService
+path: B5FBF6046E864743928845A9B795C48D.gwt.rpc

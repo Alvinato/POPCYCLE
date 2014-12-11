@@ -1,0 +1,2 @@
+serviceClass: com.google.gwt.pop.client.UserInfoService
+path: 2A5A032F0CC7953FA919170C3987E01B.gwt.rpc

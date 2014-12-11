@@ -1,0 +1,407 @@
+
+
+
+
+
+.nav li { 
+display:inline; 
+padding-left: -10px; 
+
+
+}  
+
+.nav a { 
+color: #00FFFF; 
+font-weight: bold; 
+font-size: 15px; 
+text-transform: uppercase; 
+padding-right: 15px; 
+
+} 
+
+.thumbnail{ 
+background-color: transparent; 
+
+} 
+
+
+.sidebar { 
+   background-image: -moz-linear-gradient(top, #000066 0%, #000000 100%);
+   width: 60px;
+   height: 600px;
+   position: fixed;
+   left: 0px;
+   top: 80px;
+   border: 1px solid black;
+}
+
+#topPanel { 
+	}
+
+
+#TabPanel { 
+padding-top: 10px; 
+padding-left: 0px; 
+
+}
+
+#spacepan { 
+	padding-top: 10px; 
+	padding-bottom:10px; 
+}
+
+
+#mainPanel { 
+	padding-left: 0px;
+	padding-top: 10px; 
+	
+	 
+	
+}
+
+#map_canvas { 
+	
+	padding-bottom: 15px;  
+	width: 1320px; 
+	height: 500px; 
+	 
+}
+
+.flextable { 
+	font-weight: bold; 
+	color: white; 
+}
+
+#admin { 
+	padding-top: 10px; 
+	padding-right:10px; 
+	padding-bottom: 10px; 
+    color: blue; 
+    font-weight: bold; 
+}
+
+
+.settings{ 
+	color: blue; 
+	font-weight: bold; 
+}
+	
+	
+.map { 
+	position: relative; 
+	}
+
+.rackButton{ 
+   color:blue;
+   font-weight: bold; 
+   font-size: large; 
+   font-face: Calibri Light   
+}
+
+.routeButton{ 
+   color:blue; 
+   font-weight: bold;   
+}
+.fountainButton { 
+   color:blue; 
+   font-weight: bold; 
+   
+}
+
+.profileButton { 
+	color:blue; 
+	font-weight: bold; 
+}
+
+
+
+
+.resetButton { 
+	color: blue; 
+	font-weight: bold; 
+
+}
+
+.findRoute { 
+	 border: 1px solid #BBBBBB;
+
+}
+.account {
+	position:relative; 
+	padding-left: 170px;
+	padding-right:170px; 
+	padding-top: 50px;
+	
+}
+
+
+#infoTab {
+	padding-top: 20px; 
+	padding-bottom: 200px; 
+}
+
+
+
+.mainPage1 {color: black;
+font-weight: bold;
+font-size: 10px;  }
+.mainPage2 {color: black;
+font-weight: bold;
+font-size: 10px; }
+.mainPage3 {color: black;
+font-weight: bold;
+font-size: 10px; }
+.mainPage4 {color: black;
+font-weight: bold;
+font-size: 10px; }
+.mainPage5 {color: black;
+font-weight: bold;
+font-size: 10px; }
+.mainPage6 {color: black;
+font-weight: bold;
+font-size: 10px; }
+.mainPage7 {color: black;
+font-weight: bold;
+font-size: 10px; }
+
+
+
+
+
+.check1 {
+	padding-right: 10px; 
+}
+.check2 {
+	padding-right:10px;
+}
+.check3 {
+	padding-right: 10px; 
+}
+.check4 {
+	padding-right: 10px; 
+}
+
+.flextable2add{
+	color: blue; 
+}
+.flextable2remove{
+	color: purple; 
+}
+
+.flextable2 td {
+	padding: 15px; 
+	
+	border: 4px solid purple;
+}
+
+
+.flextable3add{
+	color: blue; 
+}
+.flextable3remove{
+	color: purple; 
+}
+
+.flextable3 td {
+	padding: 15px; 
+	
+	border: 4px solid purple;
+}
+
+
+.pushSettings {
+	font-weight: bold; 
+	color: blue; 
+}
+
+
+
+.style { 
+	font-weight: bold; 
+	color: blue; 
+	font-size: 15px; 
+
+}
+
+.style2 { 
+	font-weight: bold; 
+	color: black; 
+	font-size: 15px 
+
+}
+.style3 { 
+	font-weight: bold; 
+	color: black; 
+	font-size: 15px; 
+
+}
+
+
+#facebook { 
+	padding-top: 10px; 
+	font-weight: bold; 
+	color: black; 
+
+}
+
+
+
+
+
+
+.buttonFlexPanel td{
+	padding: 5px; 
+	border: 3px solid black; 
+}
+
+
+#buttonz {
+	color: blue;
+}
+
+#suggestionz {
+	border: 1px solid black; 
+}
+
+.fb-login-button{ 
+	padding-top: 15px; 
+	padding-right: 10px; 
+}
+
+.fb-share-button{ 
+	padding-top: 15px; 
+	padding-right: 10px; 
+}
+
+
+
+.wide { width:100%;
+padding-top: 30px;
+padding-bottom: 20px;  }
+
+
+#navigraytion { 
+	padding-top: 10px; 
+	padding-left: 10px; 
+	font-weight: bold; 
+	color: black; 
+}
+
+#helpTag {
+	color: black; 
+	font-weight: bold; 
+	padding-top: 10px; 
+	padding-left: 10px; 
+}
+
+
+.progression-bar {
+    background-color: transparent;
+    height: 5px;
+    
+    width: 1350px;
+            
+
+            
+}
+
+.progression2-bar {
+    background-color: transparent;
+    height: 5px;
+    
+    width: 1350px;
+            
+
+            
+}
+
+.progression-bar span {
+    display: inline-block;
+    height: 100%;
+    width: 100%; 
+    
+    transition: width .4s ease-in-out;    
+}
+
+
+.progression2-bar span {
+    display: inline-block;
+    height: 100%;
+    width: 100%; 
+    
+    transition: width .4s ease-in-out;    
+}
+
+.stripes span {
+    background-size: 30px 30px;
+    background-image: linear-gradient(135deg, rgba(255, 255, 255, .15) 25%, transparent 25%,
+                        transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%,
+                        transparent 75%, transparent);            
+    
+    animation: animate-stripes 3s linear infinite;             
+}
+
+@keyframes animate-stripes {
+    0% {background-position: 0 0;} 100% {background-position: 60px 0;}
+}
+
+.blue span {
+    background-color: black;   
+}
+
+.green span {
+      background-color: black;
+      
+}
+
+
+
+
+.pressed {
+	color: purple;
+	font-weight: bold;
+}
+.notpressed {
+	color:blue;
+}
+
+.findRoute { 
+	 border: 1px solid #BBBBBB;
+}
+.account {
+	position:relative; 
+	padding-left: 170px;
+	padding-right:170px; 
+	padding-top: 50px;
+}
+
+.dbviewerflex {
+  border: 1px solid silver;
+  padding: 2px;
+  background-color: #2062B8;
+  margin-bottom:6px;
+}
+
+/* stock list Remove column */
+.frequentTable {
+  text-align: center;
+  border: 3px solid silver;
+  margin-bottom:6px;
+  background-color: #00CC99;
+  font-size:150%;
+  font-weight:  bold;
+  color: yellow;
+}
+
+.distanceTable {
+  text-align: center;
+  border: 3px solid red;
+  padding: 2px;
+  margin-bottom:6px;
+  background-color: #CCFF66;
+  font-size:200%;
+  font-weight:  bold;
+  color: blue;
+}
+
+

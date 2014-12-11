@@ -1,0 +1,2 @@
+serviceClass: com.google.gwt.pop.client.DrinkingService
+path: D67FE5ADEBEE7D05198FF03E57BA8F36.gwt.rpc

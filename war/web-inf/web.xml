@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+              http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+         version="2.5"
+         xmlns="http://java.sun.com/xml/ns/javaee">
+         
+
+  <!-- Servlets -->
+  
+  <servlet>
+    <servlet-name>loginService</servlet-name>
+    <servlet-class>com.google.gwt.pop.server.LoginServiceImpl</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>loginService</servlet-name>
+    <url-pattern>/pop/login</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+    <servlet-name>adminloginService</servlet-name>
+    <servlet-class>com.google.gwt.pop.server.AdminLoginServiceImpl</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>adminloginService</servlet-name>
+    <url-pattern>/pop/adminlogin</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+    <servlet-name>POIService</servlet-name>
+    <servlet-class>com.google.gwt.pop.server.POIServiceImpl</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>POIService</servlet-name>
+    <url-pattern>/pop/POIService</url-pattern>
+  </servlet-mapping>
+  
+      <servlet>
+    <servlet-name>testpoiService</servlet-name>
+    <servlet-class>com.google.gwt.pop.server.testpoiServiceImpl</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>testpoiService</servlet-name>
+    <url-pattern>/pop/testpoiService</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+    <servlet-name>UserInfoService</servlet-name>
+    <servlet-class>com.google.gwt.pop.server.UserInfoServiceImpl</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>UserInfoService</servlet-name>
+  	<url-pattern>/pop/UserInfoService</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+    <servlet-name>DrinkingService</servlet-name>
+    <servlet-class>com.google.gwt.pop.server.DrinkingServiceImpl</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>DrinkingService</servlet-name>
+    <url-pattern>/pop/DrinkingService</url-pattern>
+  </servlet-mapping>
+
+  
+    
+  <!-- Default page to serve -->
+  <welcome-file-list>
+    <welcome-file>Pop.html</welcome-file>
+  </welcome-file-list>
+  
+
+</web-app>
